@@ -1,0 +1,32 @@
+# Settings for modes. deploytimelock is in minutes
+
+mode Crash
+	requiredplayers 2
+	squadmaxnumber 1
+	maximumplayers 40
+	deploytimelock 45
+endmode
+
+mode Nuclear War
+	squadmaxnumber 1
+	requiredplayers 30
+endmode
+
+mode Combat Patrol
+	requiredplayers 2
+	maximumplayers 40
+endmode
+
+mode Campaign
+	requiredplayers 30
+endmode
+
+mode Extended
+	requiredplayers 0
+	votable 0
+endmode
+
+mode Zombie Crash
+	requiredplayers 2
+	votable 0
+endmode

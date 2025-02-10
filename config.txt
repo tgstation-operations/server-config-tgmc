@@ -1,0 +1,209 @@
+## Check code/controllers/configuration/entries for detailed explanations, all possible config options and some defaults.
+## Anything after a "#" is commented out, uncomment things to enable them, comment to disable them.
+
+$include dbconfig.txt
+$include resources.txt
+
+## Server name: This appears at the top of the screen in-game.
+SERVER_NAME TerraGov Marine Corps
+
+## Same, but for notes.
+SERVERSQLNAME TGMC
+
+## Hosted by name for unix platforms
+HOSTEDBY /tg/station
+
+## The title of the main window.
+TITLE TerraGov Marine Corps
+
+#ASSET_SIMPLE_PRELOAD
+
+HUB
+
+RESTART_MESSAGE <@&545779447739973633>
+
+# Should match the DMAPI Tag in TGS
+END_OF_ROUND_CHANNEL server-updates
+
+SEE_OWN_NOTES
+
+HARD_POPCAP 200
+EXTREME_POPCAP 250
+ROUNDS_UNTIL_HARD_RESTART 5
+
+NOTIFY_NEW_PLAYER_AGE 1
+NOTIFY_NEW_ACCOUNT_AGE 7
+
+USE_EXP_TRACKING
+USE_EXP_RESTRICTIONS_COMMAND
+USE_EXP_RESTRICTIONS_OTHER
+USE_EXP_RESTRICTIONS_ADMIN_BYPASS
+USE_AGE_RESTRICTION_FOR_JOBS
+
+AUTOMUTE_ON
+
+## Uncomment to give admins the ability to send a maptext popup to players.
+## Only fires when an admin requests it, not every ahelp.
+POPUP_ADMIN_PM
+
+PROTECT_LEGACY_ADMINS
+
+PROTECT_LEGACY_RANKS
+
+# This is required for MCDB.
+LOAD_LEGACY_RANKS_ONLY
+
+GUEST_BAN
+
+#FORUMURL https://tgstation13.org/phpBB/viewforum.php?f=64
+WIKIURL https://tgstation13.org/wiki/TGMC
+RULESURL https://tgstation13.org/wiki/TGMC:Rules
+DISCORDURL https://discord.gg/2dFpfNE
+GITHUBURL https://github.com/tgstation/TerraGov-Marine-Corps/
+#BANAPPEALS https://tgstation13.org/phpBB/viewforum.php?f=70
+#DBURL https://tgstation13.org/mcdb/
+
+SHIPURL https://goo.gl/MrmehR
+LV624URL https://goo.gl/6tuwfg 
+BIGREDURL https://goo.gl/TN7mmT 
+ICECOLONYURL https://goo.gl/KYKNgJ 
+PRISONSTATIONURL https://goo.gl/GXoxnA 
+WHISKEYOUTPOSTURL https://goo.gl/ZwTS5X 
+
+## Uncomment these to set a custom respawn timer; the delay is in ticks.
+MARINE_RESPAWN 18000
+XENO_RESPAWN 1200
+
+## Voting
+DEFAULT_NO_VOTE
+
+## Uncomment to enable global ban DB using the provided URL. The API should expect to receive a ckey at the end of the URL.
+## More API details can be found here: https://centcom.melonmesa.com
+CENTCOM_BAN_DB https://centcom.melonmesa.com/ban/search
+
+## Logging
+LOG_OOC
+LOG_LOOC
+LOG_MOOC
+LOG_XOOC
+LOG_SAY
+LOG_TELECOMMS
+LOG_HIVEMIND
+LOG_ADMIN
+LOG_ADMINCHAT
+LOG_ACCESS
+LOG_GAME
+LOG_VOTE
+LOG_MINIMAP_DRAWING
+LOG_WHISPER
+LOG_EMOTE
+LOG_ATTACK
+LOG_HREFS
+LOG_RUNTIME
+LOG_MANIFEST
+LOG_JOB_DEBUG
+
+INVOKE_YOUTUBEDL yt-dlp
+
+#ALLOW_SHUTDOWN
+
+AGGRESSIVE_CHANGELOG
+
+##################
+## Game Options ##
+##################
+
+FUN_ALLOWED 0
+
+ALLOW_ADMIN_OOCCOLOR
+
+LOOC_ENABLED
+
+ALLOW_AI
+ALLOW_AI_MULTICAM
+
+BONES_CAN_BREAK
+LIMBS_CAN_BREAK
+
+PREVENT_DUPE_NAMES
+HUMANS_NEED_SURNAMES
+
+MINUTE_CLICK_LIMIT 400
+
+# Topic filtering whitelist
+# Addressed listed below are except from any incoming topic filering
+TOPIC_FILTERING_WHITELIST 127.0.0.1
+
+##Default view size, in tiles.
+##	By default, this is 15x15, which gets simplified to 7 by byond
+##  15x15 would be the standard square view. 21x15 is what goonstation uses for widescreen.
+##  Setting this to something different from DEFAULT_VIEW_SQUARE will enable widescreen toggles
+##	Do note that changing this value will affect the title screen. The title screen will have to be updated manually if this is changed.
+DEFAULT_VIEW 19x15
+
+##Default view size, in tiles. Should *always* be square.
+## The alternative square viewport size if you're using a widescreen view size
+## You probably shouldn't ever be changing this, but it's here if you want to.
+DEFAULT_VIEW_SQUARE 15x15
+
+## Whether autobalance is on or not. This is a feature that increases xeno stats based on many variables (set to 0 to disable).
+IS_AUTOMATIC_BALANCE_ON 1
+
+## How long in seconds after which a hard delete is treated as causing lag. This can be a float and supports a precision as low as nanoseconds.
+HARD_DELETES_OVERRUN_THRESHOLD 0.2
+
+## Once a typepath causes overrun from hard deletes this many times, stop hard deleting it on garbage collection failures. (set to 0 to disable)
+HARD_DELETES_OVERRUN_LIMIT 1
+
+FPS 20
+
+GLIDE_SIZE_MOD 80
+
+## TTS CONNECTION INFO IS IN tts_secrets.txt ##
+
+TTS_MAX_CONCURRENT_REQUESTS 5
+
+TTS_VOICE_BLACKLIST Woman (Youthful)
+
+TTS_VOICE_BLACKLIST Woman (Youthful 2)
+
+TTS_VOICE_BLACKLIST Man (Youthful)
+
+TTS_VOICE_BLACKLIST Man (Youthful 2)
+
+TTS_VOICE_BLACKLIST Man (Youthful 3)
+
+PANIC_BUNKER 0
+
+SERVER tgmc.tgstation13.org:5337
+
+##Panic bunker command to perma turn it on is "PANIC_BUNKER 1" - otter
+
+## Should SQL be enabled? Uncomment to enable
+SQL_ENABLED
+
+## Server the MySQL database can be found at.
+## Examples: localhost, 200.135.5.43, www.mysqldb.com, etc.
+ADDRESS localhost
+
+## MySQL server port (default is 3306).
+PORT 3306
+
+## Database for all SQL functions, not just feedback.
+FEEDBACK_DATABASE tgmc
+
+## Prefix to be added to the name of every table, older databases will require this be set to erro_
+## Note, this does not change the table names in the database, you will have to do that yourself.
+FEEDBACK_TABLEPREFIX
+
+## Time in seconds for asynchronous queries to timeout
+## Set to 0 for infinite
+ASYNC_QUERY_TIMEOUT 10
+
+## Time in seconds for blocking queries to execute before slow query timeout
+## Set to 0 for infinite
+## Must be less than or equal to ASYNC_QUERY_TIMEOUT
+BLOCKING_QUERY_TIMEOUT 5
+
+## The maximum number of additional threads BRSQL is allowed to run at once
+BSQL_THREAD_LIMIT 50

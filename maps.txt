@@ -1,0 +1,139 @@
+This file contains a list of maps for use in map rotation.
+#Lines starting with # are ignored.
+Lines not inside map blocks are also ignored
+Duplicated entries use the latter one.
+All whitespace at the start and end of lines is ignored. (including indentation, thats just for show)
+Format:
+#map [map name] (name of .json file in _maps folder without the .json part)
+    minplayers [number] (0 or less disables this requirement)
+    maxplayers [number] (0 or less disables this requirement)
+    default (The last map with this defined will get all votes of players who have not explicitly voted for a map)
+    voteweight [number] (How much to count each player vote as, defaults to 1, setting to 0.5 counts each vote as half a vote, 2 as double, etc, Setting to 0 disables the map but allows players to still pick it)
+    disabled (disables the map)
+endmap
+
+# High pop maps
+map bigred_v2
+	default
+	minplayers 25
+endmap
+
+map lv624
+	minplayers 25
+endmap
+
+map ice_colony_v2
+	minplayers 40
+endmap
+
+map magmoor_digsite_iv
+	minplayers 40
+endmap
+
+map desertdam
+	minplayers 70
+endmap
+
+map research_outpost
+	maxplayers 40
+endmap
+
+map orion_outpost
+	maxplayers 40
+endmap
+
+map deltastation
+    minplayers 40
+endmap
+
+map oscar_outpost
+    minplayers 10
+endmap
+
+map lawanka
+    minplayers 60
+endmap
+
+map slumbridge
+    minplayers 35
+endmap
+
+map riptide
+    minplayers 40
+endmap
+
+map fort_phobos
+endmap
+
+map daedalusprison
+    minplayers 50
+endmap
+
+map kutjevo
+    minplayers 5
+endmap
+
+map LV759
+    minplayers 65
+endmap
+
+# Medium pop
+map prison_station_fop
+    minplayers 20
+    maxplayers 60
+endmap
+
+# Low pop
+map icy_caves
+    maxplayers 40
+endmap
+
+## Admin only
+
+map vapor_processing
+    voteweight 0
+    disabled
+endmap
+
+map whiskey_outpost_v2
+    voteweight 0
+endmap
+
+map gelida_iv
+    minplayers 50
+endmap
+
+map desparity
+
+    maxplayers 30
+
+endmap
+
+map metnal
+    minplayers 45
+endmap
+
+map lavaoutpost
+	minplayers 20
+endmap
+
+map desertdam
+	minplayers 75
+endmap
+
+map barrenquilla_mining
+	minplayers 30
+	maxplayers 50
+endmap
+
+map icarus_military_port
+	minplayers 50
+endmap
+
+map corsat
+	minplayers 70
+endmap
+
+map bluesummers
+	minplayers 20
+endmap

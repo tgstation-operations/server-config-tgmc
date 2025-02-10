@@ -1,0 +1,15 @@
+# Cannot be hosted on github without breaking TOS. TODO: Remove once we're on forgejo
+word_filter.toml
+# Secret key within for cross-server communication
+comms.txt
+# Authentication details for the database within
+dbconfig.txt
+# Secrets used to connect to the TTS server
+tts_secrets.txt
+
+# Explicitly allow certain files if they're in a subdir, for server specific bits
+!*/comms.txt
+!*/dbconfig.txt
+# Copyright
+**/lobby_themes
+**/reboot_themes

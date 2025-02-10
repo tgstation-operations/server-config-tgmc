@@ -1,0 +1,7 @@
+<center>***</center>
+<center><h1>Welcome to TerraGov Marine Corps!</h1></center>
+<span style="font-family:Helvetica"><i>This server is running <a href="https://tgstation13.org/">/tg/station13's</a> modification of <a href="https://cm-ss13.com/">CM-SS13's</a> Space Station 13 code.</i><br>
+<b><a style="font-size:12pt" href="https://tgstation13.org/wiki/TGMC:Rules">Make sure you read the rules! Additionally be sure to use the show policy verb in OOC, depending on your job it'll tell you some specific adminstrative ruling!</a> <span style="color:red">Ignorance is not an excuse to break our rules!</span></b>
+<h3 style="text-decoration:none;">
+New to the game? Just curious about how something works? There are mentors ready to help you! Just go to the admin panel on the top right, click on the mentorhelp button and write your question! If you require admin attention or help, please use the admin panel and click on the adminhelp button and write your question as well.</h3>
+<h2><a href="https://tgstation13.org/wiki/TGMC:Frequently_Asked_Questions">Frequently Asked Questions</a></h2>
