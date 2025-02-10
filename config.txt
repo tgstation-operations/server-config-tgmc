@@ -23,7 +23,7 @@ HUB
 RESTART_MESSAGE <@&545779447739973633>
 
 # Should match the DMAPI Tag in TGS
-END_OF_ROUND_CHANNEL server-updates
+END_OF_ROUND_CHANNEL game-updates
 
 SEE_OWN_NOTES
 
