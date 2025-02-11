@@ -63,17 +63,6 @@ GITHUBURL https://github.com/tgstation/TerraGov-Marine-Corps/
 #BANAPPEALS https://tgstation13.org/phpBB/viewforum.php?f=70
 #DBURL https://tgstation13.org/mcdb/
 
-SHIPURL https://goo.gl/MrmehR
-LV624URL https://goo.gl/6tuwfg 
-BIGREDURL https://goo.gl/TN7mmT 
-ICECOLONYURL https://goo.gl/KYKNgJ 
-PRISONSTATIONURL https://goo.gl/GXoxnA 
-WHISKEYOUTPOSTURL https://goo.gl/ZwTS5X 
-
-## Uncomment these to set a custom respawn timer; the delay is in ticks.
-MARINE_RESPAWN 18000
-XENO_RESPAWN 1200
-
 ## Voting
 DEFAULT_NO_VOTE
 
