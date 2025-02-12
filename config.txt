@@ -177,6 +177,8 @@ PANIC_BUNKER 0
 
 SERVER tgmc.tgstation13.org:5337
 
+PUBLIC_ADDRESS tgmc.tgstation13.org:5337
+
 ##Panic bunker command to perma turn it on is "PANIC_BUNKER 1" - otter
 
 ## Should SQL be enabled? Uncomment to enable
