@@ -1,13 +1,11 @@
 {
-"/mob/living/carbon/human": "Railguns shouldn't be used to cheese silos in Crash, however normal usage is still fine.
+"/mob/living/carbon/human": "
 ",
 
-"/mob/living/carbon/human/species/robot": "Railguns shouldn't be used to cheese silos in Crash, however normal usage is still fine.
+"/mob/living/carbon/human/species/robot": "
 ",
 
-"Xeno Queen": "Wraith is not allowed to phase shift in or out of canterbury. There's a bug which currently lets wraith ignore the shuttle area of canterbury which is supposed to block phase shifting, blinking in however is fine. 
-Don't use wraith to reach inacessible areas from marines just to evolve into hivemind. ||TGMC Ruling: Refrain from spawncamping players who just joined in cryo, if you're a xeno that broke into shipside you shouldn't sit in the spawn room just to kill anyone who wakes up.",
+"Xeno Queen": "TGMC Ruling: Refrain from spawncamping players who just joined in cryo, if you're a xeno that broke into shipside you shouldn't sit in the spawn room just to kill anyone who wakes up.",
 
-"Xenomorph": "Wraith is not allowed to phase shift in or out of canterbury. There's a bug which currently lets wraith ignore the shuttle area of canterbury which is supposed to block phase shifting, blinking in however is fine. 
-Don't use wraith to reach inacessible areas from marines just to evolve into hivemind. ||TGMC Ruling: Refrain from spawncamping players who just joined in cryo, if you're a xeno that broke into shipside you shouldn't sit in the spawn room just to kill anyone who wakes up."
+"Xenomorph": "TGMC Ruling: Refrain from spawncamping players who just joined in cryo, if you're a xeno that broke into shipside you shouldn't sit in the spawn room just to kill anyone who wakes up."
 }
