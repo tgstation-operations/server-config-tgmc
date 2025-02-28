@@ -3,6 +3,7 @@
 
 $include dbconfig.txt
 $include resources.txt
+$include tts_secrets.txt
 
 ## Server name: This appears at the top of the screen in-game.
 SERVER_NAME TerraGov Marine Corps
