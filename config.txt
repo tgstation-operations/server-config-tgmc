@@ -73,8 +73,8 @@ LOAD_LEGACY_RANKS_ONLY
 GUEST_BAN
 
 FORUMURL https://tgstation13.org/phpBB/viewforum.php?f=64
-WIKIURL https://paradisestation.org/tgwiki2/index.php?title=TGMC:TGMC
-RULESURL https://paradisestation.org/tgwiki2/index.php?title=TGMC:Rules
+WIKIURL https://wiki.tgstation13.org/TGMC:TGMC
+RULESURL https://wiki.tgstation13.org/TGMC:Rules
 DISCORDURL https://discord.gg/2dFpfNE
 GITHUBURL https://github.com/tgstation/TerraGov-Marine-Corps/
 BANAPPEALS https://tgstation13.org/phpBB/viewforum.php?f=70
