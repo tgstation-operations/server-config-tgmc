@@ -181,7 +181,7 @@ TTS_VOICE_BLACKLIST Man (Youthful 3)
 
 PANIC_BUNKER 0
 
-SERVER tgmc.tgstation13.org:5337
+SERVER byond://45.63.74.80:5337
 
 PUBLIC_ADDRESS tgmc.tgstation13.org:5337
 
