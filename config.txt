@@ -59,13 +59,12 @@ PROTECT_LEGACY_ADMINS
 
 PROTECT_LEGACY_RANKS
 
-CLIENT_WARN_VERSION 516
-CLIENT_WARN_BUILD 1659
-CLIENT_WARN_POPUP
-CLIENT_ERROR_VERSION 515
-CLIENT_ERROR_BUILD 1590
-CLIENT_WARN_MESSAGE BYOND released 516 as the stable release. This has changed the underlying engine used to display the browser from Trident to WebView. Support for Trident will very quickly become outdated and broken.
-CLIENT_ERROR_MESSAGE Your version of byond is not supported. Please upgrade.
+#CLIENT_WARN_VERSION 516
+#CLIENT_WARN_BUILD 1659
+#CLIENT_WARN_POPUP
+
+CLIENT_ERROR_VERSION 516
+CLIENT_ERROR_BUILD 1659
 
 # This is required for MCDB.
 LOAD_LEGACY_RANKS_ONLY
