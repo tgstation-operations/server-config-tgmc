@@ -80,6 +80,8 @@ GITHUBURL https://github.com/tgstation/TerraGov-Marine-Corps/
 BANAPPEALS https://tgstation13.org/phpBB/viewforum.php?f=70
 #DBURL https://tgstation13.org/mcdb/
 
+FORUM_LINK_URI https://forums.tgstation13.org/linkbyondaccount.php
+
 ## Voting
 DEFAULT_NO_VOTE
 MISSION_END_COUNTDOWN 10
