@@ -137,3 +137,7 @@ endmap
 map bluesummers
 	minplayers 20
 endmap
+
+map fiorina
+	minplayers 50
+endmap
