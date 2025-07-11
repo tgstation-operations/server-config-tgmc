@@ -141,6 +141,3 @@ endmap
 map fiorina
 	minplayers 65
 endmap
-
-map tinyblue
-endmap
