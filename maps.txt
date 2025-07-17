@@ -141,3 +141,7 @@ endmap
 map fiorina
 	minplayers 65
 endmap
+
+map bluemoon
+	maxplayers 40
+endmap
