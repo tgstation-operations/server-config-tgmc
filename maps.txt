@@ -73,7 +73,7 @@ map kutjevo
     minplayers 5
 endmap
 
-map LV759
+map lv759
     minplayers 65
 endmap
 
@@ -104,9 +104,7 @@ map gelida_iv
 endmap
 
 map desparity
-
     maxplayers 30
-
 endmap
 
 map metnal
