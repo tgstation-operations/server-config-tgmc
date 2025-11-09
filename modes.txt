@@ -12,6 +12,10 @@ mode Nuclear War
 	requiredplayers 30
 endmode
 
+mode Sovl War
+	requiredplayers 30
+endmode
+
 mode Combat Patrol
 	requiredplayers 2
 	maximumplayers 40
@@ -27,5 +31,6 @@ mode Extended
 endmode
 
 mode Zombie Crash
-	requiredplayers 2
+	requiredplayers 1
 endmode
+
