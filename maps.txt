@@ -108,7 +108,7 @@ map desparity
 endmap
 
 map metnal
-    minplayers 45
+    minplayers 55
 endmap
 
 map lavaoutpost
@@ -143,3 +143,4 @@ endmap
 map bluemoon
 	maxplayers 40
 endmap
+
