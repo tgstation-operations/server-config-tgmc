@@ -32,5 +32,7 @@ endmode
 
 mode Zombie Crash
 	requiredplayers 1
+	maximumplayers 40
 endmode
+
 
