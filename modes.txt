@@ -13,7 +13,7 @@ mode Nuclear War
 endmode
 
 mode Sovl War
-	requiredplayers 30
+	requiredplayers 60
 endmode
 
 mode Combat Patrol
