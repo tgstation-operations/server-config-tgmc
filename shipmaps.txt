@@ -24,7 +24,7 @@ endmap
 map pillar_of_spring
 endmap
 
-map Legacy_of_Spring
+map legacy_of_spring
 endmap
 
 map sulaco
