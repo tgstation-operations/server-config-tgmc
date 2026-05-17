@@ -24,6 +24,9 @@ endmap
 map pillar_of_spring
 endmap
 
+map Legacy_of_Spring
+endmap
+
 map sulaco
     minplayers 30
 endmap
